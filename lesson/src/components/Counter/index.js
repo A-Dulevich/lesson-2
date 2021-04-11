@@ -17,7 +17,8 @@ handleclick = () => {
    
     this.setState({
      ...this.state ,//копирование объекта
-        isShown:false
+        // isShown:isShown  ? false : true,
+        isShown:!isShown,
         
     })
 }    
