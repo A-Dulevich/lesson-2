@@ -1,7 +1,8 @@
 import React from 'react';
 import Counter from './components/Counter/index'
 const data = {
-  label:'Header'
+  label:'Header',
+
 }
 
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
   render (){
   return(
    <div>
-   <Counter headerLabel ="HEADER"/>
+   <Counter headerLabel ="HEADER"  />
    </div>
   )
   }
